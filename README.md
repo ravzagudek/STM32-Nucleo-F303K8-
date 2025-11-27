@@ -1,4 +1,4 @@
-# STM32 Development Process
+# STM32 Card Development Process
 This repo includes the works that I did with Nucleo-F303K8 card.
 
 # Blinky LED
