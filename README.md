@@ -21,7 +21,7 @@ The onboard LED was used, no external circuit is required.
 
 # UART-Message
 ## Purpose
-
+Sending data from the Nucleo board to the computer via USB (Virtual COM Port).
 ## What I Learned?
 ### Pin Configurations (in .ioc file)
 Connectivity: USART2
@@ -30,6 +30,7 @@ Parameters:
 -Baud Rete: 115200
 -Word Length: 8 Bits (Std)
 -Stop Bits: 1 (Std)
+Pins: PA2 (TX) and PA15 (RX) were assigned automatically.
 ### ->Generate Code
 
 ### PuTTY
